@@ -153,11 +153,11 @@ public class TestWeb {
 
         driver.get("http://webdriveruniversity.com/To-Do-List/index.html");
 
-//2. Add new ToDo “MAKE HOMEWORK”
+//2. Add new To Do “MAKE HOMEWORK”
         driver.findElement(By.xpath("//input[contains(@placeholder, 'Add new todo')]")).sendKeys("MAKE HOMEWORK");
         driver.findElement(By.xpath("//input[contains(@placeholder, 'Add new todo')]")).sendKeys(Keys.ENTER);
 
-//3. Add new ToDo “Practice Automation”
+//3. Add new To Do “Practice Automation”
         driver.findElement(By.xpath("//input[contains(@placeholder, 'Add new todo')]")).sendKeys("Practice Automation");
         driver.findElement(By.xpath("//input[contains(@placeholder, 'Add new todo')]")).sendKeys(Keys.ENTER);
 
