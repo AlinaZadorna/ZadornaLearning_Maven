@@ -60,7 +60,7 @@ public class TestWeb {
     @Test
     public void browserNavigation() {
         driver.get("https://demoqa.com/");
-//3. Click on Registration link using ToDo
+//3. Click on Registration link using
         driver.findElement(By.xpath("//a[@href = \"https://www.toolsqa.com/selenium-training/\"]")).click();
         ArrayList<String> browserTabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(browserTabs.get(1));
